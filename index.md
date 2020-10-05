@@ -3,7 +3,7 @@
 [Azure Monitor Dashboards](https://azuremonitor.io/) is a standalone, performant, real-time dashboarding platform which currently supports ADX and LA as data sources with more (Metrics, AI etc.) to be added in future. Long term goal for Azure Monitoring Dashboard is to be a one-stop solution for all the azure monitoring needs. 
 
 The following image depicts an Azure Monitor Dashboard.
-    :::image type="content" source="images/Dashboard.png" alt-text="Azure Monitor Dashboards":::
+    ![](images/Dashboard.png)
 
 The goal of this page is to quickly get you up and running with the Azure Monitor Dashboards by describing the steps necessary to create a dashboard.
 
@@ -22,7 +22,7 @@ We assume that you have some familiarity with KQL (Kusto Query Language). If not
 
 1. Select a dashboard name and **Create**.
 
-    :::image type="content" source="images/new-dashboard-popup.png" alt-text="Create a dashboard":::
+    ![](images/new-dashboard-popup.png)
 
 ## Add data source
 
@@ -30,7 +30,7 @@ Add the required data sources for the dashboards.
 
 1. Select **Data sources** menu item on the top bar. Select the **+ New data source** button in the **Data sources** pane.
 
-    :::image type="content" source="images/datasource.png" alt-text="Data source":::
+    ![](images/datasource.png)
 
 1. In the **Create new data source** pane:
     1. Select the **Data source type**
@@ -39,7 +39,7 @@ Add the required data sources for the dashboards.
         1. Select the **Database** from the drop-down list.
         1. Use the default or modify the **Data source name**, if needed. 
         1. Select **Apply**.
-            :::image type="content" source="images/Add-ADX-datasource.png" alt-text="Data source pane":::
+            ![](images/Add-ADX-datasource.png)
 
         </br> For **Log Analytics** data source
         1. Select a **Subscription** from the drop-down list.
@@ -47,7 +47,7 @@ Add the required data sources for the dashboards.
         1. Select a **Workspace** from the drop-down list.
         1. Use the default or modify the **Data source name**, if needed. 
         1. Select **Apply**.
-            :::image type="content" source="images/Add-LA-datasource.png" alt-text="Add LA data source":::
+            ![](images/Add-LA-datasource.png)
 
 ## Use Parameters
 
@@ -55,11 +55,11 @@ Parameters enable using dashboard filters. Parameters significantly improve dash
 
 1. Select **Parameters** on the top bar. Select the **+ New parameter** button in the **Parameters** pane.
 
-    :::image type="content" source="images/parameters.png" alt-text="Select new parameter":::
+    ![](images/parameters.png)
 
 1. Enter values for all the mandatory fields and select **Done**.
 
-    :::image type="content" source="images/parameters-pane.png" alt-text="Parameter pane":::
+    ![](images/parameters-pane.png)
 
 |Field  |Description |
 |---------|---------|
@@ -77,23 +77,23 @@ Parameters enable using dashboard filters. Parameters significantly improve dash
 
 1. Select **Add Query** from the dashboard canvas or the top menu bar.
 
-    :::image type="content" source="images/add-query.png" alt-text="New query":::
+    ![](images/add-query.png)
 
 1. In the **Query** pane, 
     1. Select the data source from the drop-down
     1. Type the query, and select **Run** 
     1. Select **+ Add visual**
 
-    :::image type="content" source="images/initial-query.png" alt-text="Execute query":::
+    ![](images/initial-query.png)
 
 1. In the **Visual formatting** pane, select **Chart type** to choose the type of visual. 
 1. Name the visual and select **Apply changes** to pin the visual to the dashboard.
 
-    :::image type="content" source="images/add-visual.png" alt-text="Add visual to query":::
+    ![](images/add-visual.png)
 
 1. You can resize the visual and **Save changes** to save the dashboard.
 
-    :::image type="content" source="images/save-dashboard.png" alt-text="save dashboard":::
+    ![](images/save-dashboard.png)
 
 ## Share dashboards
 
@@ -108,7 +108,7 @@ Use the share menu to [grant permissions](#grant-permissions) to the dashboard, 
 1. Select the **Share** menu item in the top bar of the dashboard.
 1. Select **Manage permissions** from the drop-down. 
 
-    :::image type="content" source="images/share-dashboard.png" alt-text="Share dashboard drop-down":::
+    ![](images/share-dashboard.png)
 
 ### Grant permissions
 
@@ -116,7 +116,7 @@ To grant permissions to a user in the **Dashboard permissions** pane:
 1. Write the user's name or email in **Add new members** box.
 1. Select the **Permission** level as **Can view** or **Can edit** and then click **Add**.
 
-:::image type="content" source="images/dashboard-permissions.png" alt-text="Manage dashboard permissions":::
+![](images/dashboard-permissions.png)
 
 ### Change a user permission level
 
@@ -136,12 +136,12 @@ Or
 1. Select **Edit** in dashboard menu to switch to edit mode.
 1. Select **Auto refresh**. 
  
-    :::image type="content" source="images/auto-refresh.png" alt-text="Select auto refresh":::
+    ![](images/auto-refresh.png)
 
 1. Toggle the option so auto refresh is **Enabled**. 
 1. Select values for **Minimum time interval** and **Default refresh rate**. 
 
-    :::image type="content" source="images/auto-refresh-toggle.png" alt-text="Enable auto refresh":::
+    ![](images/auto-refresh-toggle.png)
 
 1. Select **Apply** and **Save** the dashboard.
 
