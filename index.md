@@ -18,7 +18,6 @@ We assume that you have some familiarity with KQL (Kusto Query Language). If not
 
 1. In the navigation bar, select **Dashboards** and select **New dashboard**.
 
-    :::image type="content" source="~/images/new-dashboard.png" alt-text="New dashboard":::
     ![](images/new-dashboard.png)
 
 1. Select a dashboard name and **Create**.
