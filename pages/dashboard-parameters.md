@@ -10,19 +10,19 @@ Parameters are used as building blocks for dashboard filters in Azure Monitor da
 
 Select the **Parameters** button at the top of the dashboard to view the list of all dashboard parameters.
 
-:::image type="content" source="../images/dashboard-icons.png" alt-text="parameters button top of dashboard":::
+![](../images/dashboard-icons.png)
 
 ## Create a parameter
 
 To create a parameter, select the **New parameter** button at the top of the right pane.
 
-:::image type="content" source="../images/new-parameter-button.png" alt-text="New parameters button":::
+![](../images/new-parameter-button.png)
 
 ### Properties
 
 1. In the **Add parameter** pane, configure the properties detailed below.
 
-:::image type="content" source="../images/properties.png" alt-text="add parameter properties":::
+![](../images/properties.png)
 
 |Field  |Description |
 |---------|---------|
@@ -44,13 +44,13 @@ The following indicators can be viewed in the parameter card:
 * Number of queries in which the parameter was used
 * Pin/unpin state in the dashboard
 
-:::image type="content" source="../images/modify-parameter.png" alt-text="Modify parameters":::
+![](../images/modify-parameter.png)
 
 ## Use parameters in your query
 
 A parameter must be used in the query to make the filter applicable for that query visual. Once defined, you can see the parameters in the **Query** page > filter top bar and in the query intellisense.
 
-:::image type="content" source="../images/query-intellisense.png" alt-text="See parameters in top bar and intellisense":::
+![](../images/query-intellisense.png)
 
 > [!NOTE]
 > If the parameter isn't used in the query, the filter remains disabled. Once the parameter is added to the query, the filter becomes active.
@@ -73,7 +73,7 @@ EventsAll
 
 Once saved, the time range filter shows up on the dashboard. Now it can be used to filter the data on the card. You can filter your dashboard by selecting from the drop-down: **Time range** (last x minutes/hours/days) or a **Custom time range**.
 
-:::image type="content" source="../images/time-range.png" alt-text="filter using custom time range":::
+![](../images/time-range.png)
 
 ### Use the single selection fixed value parameter
 
@@ -109,7 +109,7 @@ Fixed value parameters are based on predefined values specified by the user. The
 
 The parameters can be seen in the **Parameters** side pane, but aren't currently being used in any visuals.
 
-:::image type="content" source="../images/start-end-side-pane.png" alt-text="start time end time parameters in side pane":::
+![](../images/start-end-side-pane.png)
 
 #### Use the parameter
 
@@ -128,7 +128,7 @@ The parameters can be seen in the **Parameters** side pane, but aren't currently
 
 1. Select different values to update the visuals.
 
-    :::image type="content" source="../images/top-five-repos.png" alt-text="top five repos result":::
+    ![](../images/top-five-repos.png)
 
 ### Use the multiple-selection fixed-value parameters
 
@@ -148,7 +148,7 @@ Fixed value parameters are based on predefined values specified by the user. The
 
 The new parameters can be seen in the **Parameters** side pane, but aren't currently being used in any visuals.
 
-:::image type="content" source="../images/companies-side-pane.png" alt-text="companies side pane":::
+![](../images/companies-side-pane.png)
 
 #### Use the parameters 
 
@@ -168,7 +168,7 @@ The new parameters can be seen in the **Parameters** side pane, but aren't curre
 
 1. Select one or more different values to update the visuals.
 
-    :::image type="content" source="../images/select-companies.png" alt-text="select companies":::
+    ![](../images/select-companies.png)
 
 ### Use the single selection query-based parameter
 
