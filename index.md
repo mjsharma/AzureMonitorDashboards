@@ -52,7 +52,7 @@ Add the required data sources for the dashboards.
          </br> For **Azure Monitor - Application Insights** data source
         1. Select a **Subscription** from the drop-down list.
         1. Select a **Resource group** from the drop-down list.
-        1. Select a **Workspace** from the drop-down list.
+        1. Select a **Application** from the drop-down list.
         1. Use the default or modify the **Data source name**, if needed. 
         1. Select **Apply**.
             ![](images/Add-AI-datasource.png)
