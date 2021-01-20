@@ -48,7 +48,11 @@ The line chart visual is the most basic type of chart. The first column of the q
 ![](../images/stat.png)
 
 The stat visual only shows one element. If there are multiple columns and rows in the output, stat shows the first element of the first column. Stat cards are useful to highlight KPIs on the Dashboard.
+### Multi Stat
 
+![](../images/multistat.png)
+
+The multi stat visual shows multiple stat cards in a group using a single query result. This requires 2 columns, one for the label and the other for the value. Users can use a visual formatting option to customize the the output layout for display by selecting the number of rows and columns. In addition to being more convenient, this formatting option will reduce cluster load where customers are using similar queries to build multiple stats.
 ### Pie chart
 
 ![](../images/pie-chart.png)
@@ -105,6 +109,7 @@ Use the following properties to customize visuals.
 |**Legend**    |   Toggle to show or hide the display of legends on your visuals   |Bar, Column, Area, Line, Scatter, Anomaly, and Time charts |
 |**Y Axis**     |   Allows customization of Y-Axis properties: <ul><li>**Label**: Text for a custom label. </li><li>**Maximum Value**: Change the maximum value of the Y axis.  </li><li>**Minimum Value**: Change the minimum value of the Y axis.  </li></ul>      |Bar, Column, Area, Line, Scatter, Anomaly, and Time charts |
 |**X Axis**     |    Allows customization of X-axis properties: <ul><li>**Label**: Text for a custom label. </li>     | Bar, Column, Area, Line, Scatter, Anomaly, and Time charts|
+|**Layout**     |    Select the layout configuration for multi stat visual. <ul><li>**Apply on columns**: Select columns containing data. </li>     | Multi stat|
 
 ## Next steps
 
