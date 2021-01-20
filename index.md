@@ -95,6 +95,18 @@ Parameters enable using dashboard filters. Parameters significantly improve dash
 
     ![](images/save-dashboard.png)
 
+## Organize the dashboards with pages
+
+You can use pages to easily organize the tiles in your dashboards in multiple pages or combine multiple related dashboards into one.
+
+1. Open the **Pages pane** from the left side and select **Add page**.
+
+    ![](images/Add-pages.png)
+
+2. Select the **Move tile** option to place a tile on a specific page.
+
+    ![](images/Move-tile.png)
+
 ## Share dashboards
 
 Use the share menu to [grant permissions](#grant-permissions) to the dashboard, [change a user's permission level](#change-a-user-permission-level), and [share the dashboard link](#share-the-dashboard-link).
@@ -109,6 +121,7 @@ Use the share menu to [grant permissions](#grant-permissions) to the dashboard, 
 1. Select **Manage permissions** from the drop-down. 
 
     ![](images/share-dashboard.png)
+
 
 ### Grant permissions
 
