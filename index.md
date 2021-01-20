@@ -103,7 +103,7 @@ You can use pages to easily organize the tiles in your dashboards in multiple pa
 
     ![](images/Add-pages.png)
 
-2. Select the **Move tile** option to place a tile on a specific page.
+1. Select the **Move tile** option to place a tile on a specific page.
 
     ![](images/Move-tile.png)
 
